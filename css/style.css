@@ -1,3 +1,19 @@
+A {
+  text-decoration: none;
+  
+  }
+  
+  .list {
+  list-style: none;  
+  }
+  
+  .list-li {
+    display: inline;
+  }
+  
+
+/* Header */
+
 .main-container {
     border: 10px solid green;
 }
@@ -232,8 +248,14 @@
 
 /* footer section */
 .footer-area {
-    background-color: cornsilk;
-    border: 2px solid blue;
-    padding: 20px;
+  background-color: cornsilk;
+  border: 2px solid blue;
 }
 
+.footer-links {
+  background-color: #555;
+}
+
+.footer-social {
+  color: white;
+}
