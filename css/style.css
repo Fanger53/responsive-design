@@ -22,11 +22,11 @@ A {
 
 .list-li2 {
     text-transform: uppercase;
-    padding-right: 18px;
 }
 
 .list-li2 a {
     color: gray;
+    font-size: 0.9em;
 }
 .main-container {
     border: 10px solid green;
@@ -65,11 +65,13 @@ A {
 
 .list-two {
     border: 1px solid green;
+    width: 56%;
+    justify-content: flex-start;
 }
 
 .nav-search {
     border: 1px solid green;
-    width: 15%;
+    width: 16%;
     justify-content: flex-end;
 }
 
@@ -86,21 +88,27 @@ A {
 }
 
 .list-two-right p {
-    font-size: 16px;
+    font-size: 1.2em;
+    width: 33%;
 }
 
 .list-two-right img {
-    width: 125px;
+    width: 33%;
     height: 52px;
 }
 /* components */
 
 .list-two-right-btn {
-    width: 25%;
-    height: 32px;
-    font-size: 11px;
-    border-radius: 5%;
-    margin-left: 10px;
+    width: 29%;
+    height: 35px;
+    font-size: 0.7em;
+    color: white;
+    background-color: rgb(0,250,154);
+    border-radius: 10%;
+}
+
+.list-two-right-btn:hover {
+    background-color: rgb(75,0,130);
 }
 
 /* main body */
