@@ -1,27 +1,29 @@
 A {
   text-decoration: none;
-  
-  }
-  
-  .list {
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.list {
   list-style: none;  
-  }
-  
-  .list-li {
-    display: inline;
-  }
-  
+}
+
+.list-li {
+  display: inline;
+}
 
 /* Header */
 
 .main-container {
-    border: 10px solid green;
+  border: 10px solid green;
 }
 
 .header-area {
-    background-color: cornsilk;
-    border: 2px solid red;
-    padding: 20px;
+  background-color: cornsilk;
+  border: 2px solid red;
+  padding: 20px;
 }
 
 .first-header {
@@ -248,14 +250,70 @@ A {
 
 /* footer section */
 .footer-area {
-  background-color: cornsilk;
   border: 2px solid blue;
 }
 
 .footer-links {
-  background-color: #555;
+  height: 160px;
+  background-color: rgb(19, 19, 19);
+  align-content: center;
 }
 
 .footer-social {
   color: white;
+}
+
+.footer-list {
+  width: 80%;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.icon {
+  margin: 0.4rem;
+  font-size: 16px;
+  color: white;
+  border-radius: 50% ;
+  background: #555; 
+  padding: 13px 13px;
+  border: 1.5px solid #555;
+}
+
+.icon:hover {
+  background: transparent;
+}
+
+.footer-list-a {
+  margin: 0.4rem;
+  color: gray;
+}
+
+.footer-list-a:hover {
+  color: white;
+}
+
+.footer-legal {
+  height: 100px;
+  background-color: black;
+}
+
+.legal-text {
+  width: 46vw;
+  text-align: center;
+  padding-top: 2.5rem;
+}
+
+.footer-legal-logo {
+  width: 37px;
+  height: 9px;
+}
+
+.footer-legal-text {
+  color: rgb(172, 172, 172);
+  display: inline-block;
+}
+
+.footer-legal-logo2 {
+  height: 10px;
+  display: inline-block;
 }
