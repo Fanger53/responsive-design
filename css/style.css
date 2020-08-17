@@ -44,11 +44,11 @@ A {
 
 }
 
-.title-icon {
+/* .title-icon {
     padding-left: 0.3rem;
     font-weight: lighter;
     margin-bottom: -6px;
-}
+} */
 
 
 .main-container {
@@ -198,7 +198,7 @@ A {
 /* main body section two */
 
 .section-two {
-
+    margin-top: 40px;
 }
 
 .section-two-item {
@@ -263,6 +263,17 @@ A {
     align-items: center;
     margin-bottom: 20px;
     border: 2px solid red;
+}
+
+.section-three-title-flex {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 2px solid red;
+}
+
+.left-title i {
+    /* justify-content: space-between; */
 }
 
 .section-three-flex {
