@@ -26,11 +26,20 @@ A {
     display: inline-block;
 }
 
-/* .list-li a {
+.list-li-a {
+    display: inline-block;
+}
+
+.list-li-a a {
     color: gray;
     padding: 10px;
-    /* border: 2px solid red; */
-} */
+    /* border: 2px solid red;*/
+} 
+
+
+.list-li-a a:hover {
+    color: white;
+}
 
 .list-li2 {
     display: inline-block;
@@ -51,17 +60,6 @@ A {
     color: white;
 }
 
-.title {
-
-}
-
-/* .title-icon {
-    padding-left: 0.3rem;
-    font-weight: lighter;
-    margin-bottom: -6px;
-} */
-
-
 .main-container {
     /* border: 10px solid green; */
 }
@@ -70,16 +68,42 @@ A {
     color: gray;
 }
 
-.section-titles {
+.titles {
     font-size: 1.75rem;
     font-weight: 700;
+}
+
+.titles a {
     color: red;
 }
 
-.section-titles:hover {
+.titles a i {
+    position: absolute;
+    margin-left: 20px;
+}
+
+.titles a:hover {
     color: #000;
 }
 
+.right-title {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.right-title a {
+    padding: 0 10px;
+    border-right: 1px solid red;
+    color: red;
+}
+
+.right-title #last-a {
+    border: 0px;
+}
+
+.right-title a:hover {
+    color: black;
+}
 /* Header */
 
 .header-area {
@@ -282,11 +306,7 @@ A {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
-    border: 2px solid red;
-}
-
-.left-title i {
-    /* justify-content: space-between; */
+    border: 2px solid green;
 }
 
 .section-three-flex {
