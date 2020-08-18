@@ -481,56 +481,78 @@ A {
 /* main body section four */
 
 .section-four {
-
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid springgreen;
 }
 
 .section-four-item {
-    
+    padding: 3%;
+    border: 2px solid blue;
 }
 
 .section-four-grid {
     display: grid;
-    grid-template-columns: repeat(3, 31%);
-    grid-template-rows: repeat(3, 300px);
+    width: 89%;
+    grid-template-columns: repeat(3, 33.4%);
+    grid-template-rows: repeat(3, 500px);
     justify-content: space-between;
-    grid-row-gap: 20px;
     margin-bottom: 40px;
     border: 2px solid red;
 }
 
 .section-four-item1 {
+    width: 100%;
+    height: 60%;
     border: 2px solid green;
 }
 
 .section-four-item2 {
+    width: 100%;
+    height: 60%;
     border: 2px solid green;
 }
 
 .section-four-item3 {
+    width: 100%;
+    height: 60%;
     border: 2px solid green;
 }
 
 .section-four-item4 {
+    width: 100%;
+    height: 60%;
     border: 2px solid green;
 }
 
 .section-four-item5 {
+    width: 100%;
+    height: 60%;
     border: 2px solid green;
 }
 
 .section-four-item6 {
+    width: 100%;
+    height: 60%;
     border: 2px solid green;
 }
 
 .section-four-item7 {
+    width: 100%;
+    height: 60%;
     border: 2px solid green;
 }
 
 .section-four-item8 {
+    width: 100%;
+    height: 60%;
     border: 2px solid green;
 }
 
 .section-four-item9 {
+    width: 100%;
+    height: 60%;
     border: 2px solid green;
 }
 
