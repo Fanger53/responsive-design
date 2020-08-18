@@ -26,12 +26,6 @@ A {
     display: inline-block;
 }
 
-/* .list-li a {
-    color: gray;
-    padding: 10px;
-    /* border: 2px solid red; */
-} */
-
 .list-li2 {
     display: inline-block;
     text-transform: uppercase;
@@ -181,6 +175,7 @@ A {
 .no-repeat {
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .section-one {
@@ -373,38 +368,82 @@ A {
     border: 2px solid green;
 }
 
-/* main body section five */
+/* section five */
+
+.section-five {
+  border: 2px solid rgba(196, 194, 194, 0.582);
+}
+
+.section-five-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 24%);
+  grid-template-rows: 318px 318px;
+  grid-gap: 20px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border: 2px solid green;
+}
+
+.items {
+  width: 290px;
+  height: 210px;
+  margin-top: 5px;
+}
 
 .section-five-item1 {
-    background-image: url(/image/section-five-item1-img.jpg);
+  background-image: url(../image/section-five-item1-img.jpg);
 }
 
 .section-five-item2 {
-    background-image: url(/image/section-five-item2-img.jpg);
+  background-image: url(../image/section-five-item2-img.jpg);
 }
 
 .section-five-item3 {
-    background-image: url(/image/section-five-item3-img.jpg);
+  background-image: url(../image/section-five-item3-img.jpg);
 }
 
 .section-five-item4 {
-    background-image: url(/image/section-five-item4-img.jpg);
+  background-image: url(../image/section-five-item4-img.jpg);
 }
 
 .section-five-item5 {
-    background-image: url(/image/section-five-item5-img.jpg);
+  background-image: url(../image/section-five-item5-img.jpg);
 }
 
 .section-five-item6 {
-    background-image: url(/image/section-five-item6-img.jpg);
+  background-image: url(../image/section-five-item6-img.jpg);
 }
 
 .section-five-item7 {
-    background-image: url(/image/section-five-item7-img.jpg);
+  background-image: url(../image/section-five-item7-img.jpg);
 }
 
 .section-five-item8 {
-    background-image: url(/image/section-five-item8-img.jpg);
+  background-image: url(../image/section-five-item8-img.jpg);
+}
+
+.story-title {
+  width: 290px;
+  margin-top: 10px;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: black;
+}
+
+.story-title:hover {
+  text-decoration: underline;
+}
+
+.story-title a {
+  color: black;
+}
+
+.price-before {
+  margin-right: 5px;
+  font-size: 13px;
+  text-decoration:  line-through;
+  color: gray;
 }
 
 /* footer section */
@@ -475,4 +514,18 @@ A {
 .footer-legal-logo2 {
   height: 10px;
   display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+/* Media querys */
+
+@media only screen and (min-width: 768px) {
+  
 }
