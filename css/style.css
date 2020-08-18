@@ -505,54 +505,63 @@ A {
 .section-four-item1 {
     width: 100%;
     height: 60%;
+    background-image: url(/image/section-four-item1-img.jpg);
     border: 2px solid green;
 }
 
 .section-four-item2 {
     width: 100%;
     height: 60%;
+    background-image: url(/image/section-four-item2-img.jpg);
     border: 2px solid green;
 }
 
 .section-four-item3 {
     width: 100%;
     height: 60%;
+    background-image: url(/image/section-four-item3-img.jpg);
     border: 2px solid green;
 }
 
 .section-four-item4 {
     width: 100%;
     height: 60%;
+    background-image: url(/image/section-four-item4-img.png);
     border: 2px solid green;
 }
 
 .section-four-item5 {
     width: 100%;
     height: 60%;
+    background-image: url(/image/section-four-item5-img.png);
     border: 2px solid green;
 }
 
 .section-four-item6 {
     width: 100%;
     height: 60%;
+    background-image: url(/image/section-four-item6-img.jpg);
     border: 2px solid green;
 }
 
 .section-four-item7 {
     width: 100%;
     height: 60%;
+    background-image: url(/image/section-four-item7-img.jpg);
     border: 2px solid green;
 }
 
 .section-four-item8 {
     width: 100%;
     height: 60%;
+    background-image: url(/image/section-four-item8-img.png);
     border: 2px solid green;
 }
 
 .section-four-item9 {
     width: 100%;
     height: 60%;
+    background-image: url(/image/section-four-item9-img.jpg);
     border: 2px solid green;
 }
 
