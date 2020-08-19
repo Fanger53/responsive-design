@@ -60,7 +60,6 @@ A {
 }
 
 .main-container {
-    /* border: 10px solid green; */
 }
 
 .color-white {
@@ -194,7 +193,6 @@ A {
 
 .main-body {
     color: white;
-    border: 2px solid green;
     padding: 20px;
 }
 
@@ -216,7 +214,6 @@ A {
 
 .section-one-item1 {
     grid-area: 1 / 1 / 3 / 2;
-    border: 1px solid green;
     background-image: url(/image/section-one-item1-img.jpg);
 }
 
@@ -233,12 +230,10 @@ A {
 }
 
 .section-one-item2 {
-    border: 1px solid green;
     background-image: url(/image/section-one-item2-img.jpg);
 }
 
 .section-one-item3 {
-    border: 1px solid green;
     background-image: url(/image/section-one-item3-img.jpg);
 }
 
@@ -250,12 +245,10 @@ A {
     flex-direction: column;
     width: 100%;
     margin-top: 40px;
-    border: 2px solid red;
 }
 
 .section-two-item {
     padding: 3%;
-    border: 2px solid blue;
 }
 
 .section-two-item h4 {
@@ -276,7 +269,6 @@ A {
 .section-two-title {
     margin-top: 40px;
     margin-bottom: 40px;
-    border: 2px solid red;
 }
 
 .section-two-grid {
@@ -286,7 +278,6 @@ A {
     grid-template-rows: 245px 245px;
     justify-content: space-between;
     margin-bottom: 20px;
-    border: 2px solid green;
 }
 
 .section-two-item1 {
