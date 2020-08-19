@@ -344,7 +344,6 @@ A {
     width: 89%;
     align-items: center;
     margin-bottom: 20px;
-    border: 2px solid red;
 }
 
 .section-three-title-flex {
@@ -352,7 +351,6 @@ A {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
-    border: 2px solid green;
 }
 
 .section-three-flex {
@@ -360,7 +358,6 @@ A {
     width: 89%;
     height: 300px;
     margin-bottom: 40px;
-    border: 2px solid blue;
 }
 /* sectionn three flex items  */
 
@@ -380,7 +377,6 @@ A {
     width: 25%;
     height: 97.7%;
     padding: 0.8%;
-    border: 2px solid green;
 }
 
 .section3-header1 {
@@ -457,7 +453,6 @@ A {
     width: 25%;
     height: 97.7%;
     padding: 0.8%;
-    border: 2px solid green;
 }
 
 .section-three-item3 {
@@ -465,7 +460,6 @@ A {
     width: 25%;
     height: 97.7%;
     padding: 0.8%;
-    border: 2px solid green;
 }
 
 .section-three-item4 {
@@ -473,7 +467,6 @@ A {
     width: 25%;
     height: 97.7%;
     padding: 0.8%;
-    border: 2px solid green;
 }
 
 
@@ -487,12 +480,10 @@ A {
     width: 100%;
     justify-content: center;
     align-items: center;
-    border: 1px solid springgreen;
 }
 
 .section-four-item {
     padding: 3%;
-    border: 2px solid blue;
 }
 
 .section-four-item-header {
@@ -584,8 +575,7 @@ A {
     grid-template-columns: repeat(3, 33.4%);
     grid-template-rows: repeat(3, 770px);
     justify-content: space-between;
-    margin-bottom: 40px;
-    border: 2px solid red;
+    margin-bottom: 20px;
 }
 
 .width-height {
@@ -595,47 +585,38 @@ A {
 
 .section-four-item1 {
     background-image: url(/image/section-four-item1-img.jpg);
-    border: 2px solid green;
 }
 
 .section-four-item2 {
     background-image: url(/image/section-four-item2-img.jpg);
-    border: 2px solid green;
 }
 
 .section-four-item3 {
     background-image: url(/image/section-four-item3-img.jpg);
-    /* border: 2px solid green; */
 }
 
 .section-four-item4 {
     background-image: url(/image/section-four-item4-img.png);
-    border: 2px solid green;
 }
 
 .section-four-item5 {
     background-image: url(/image/section-four-item5-img.png);
-    border: 2px solid green;
 }
 
 .section-four-item6 {
     background-image: url(/image/section-four-item6-img.jpg);
-    border: 2px solid green;
 }
 
 .section-four-item7 {
     background-image: url(/image/section-four-item7-img.jpg);
-    border: 2px solid green;
 }
 
 .section-four-item8 {
     background-image: url(/image/section-four-item8-img.png);
-    border: 2px solid green;
 }
 
 .section-four-item9 {
     background-image: url(/image/section-four-item9-img.jpg);
-    border: 2px solid green;
 }
 
 /* main body section five */
@@ -693,9 +674,6 @@ A {
 }
 
 /* footer section */
-.footer-area {
-  border: 2px solid blue;
-}
 
 .footer-links {
   height: 160px;
