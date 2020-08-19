@@ -59,7 +59,8 @@ A {
     color: white;
 }
 
-.main-container {
+.fixed-p {
+    position: fixed;
 }
 
 .color-white {
