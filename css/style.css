@@ -728,6 +728,18 @@ A {
 
 /* Media querys */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
+.section-five-grid {
+  display: grid;
+  grid-template-columns: 90%;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border: 2px solid green;
+}
+.items{
+  width: 75px;
+  height: 75px;
+  float: left;
+}
 
 }
