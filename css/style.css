@@ -33,7 +33,6 @@ A {
 .list-li-a a {
     color: gray;
     padding: 10px;
-    /* border: 2px solid red;*/
 } 
 
 
@@ -60,8 +59,8 @@ A {
     color: white;
 }
 
-.main-container {
-    /* border: 10px solid green; */
+.fixed-p {
+    position: fixed;
 }
 
 .color-white {
@@ -109,7 +108,6 @@ A {
 
 .header-area {
   background-color: cornsilk;
-  border: 2px solid red;
   padding: 20px;
 }
 
@@ -141,7 +139,6 @@ A {
 }
 
 .list-two {
-    /* border: 1px solid green; */
     justify-content: space-between;
 }
 
@@ -197,7 +194,6 @@ A {
 
 .main-body {
     color: white;
-    border: 2px solid green;
     padding: 20px;
 }
 
@@ -213,24 +209,33 @@ A {
     display: grid;
     grid-template-rows: 225px 225px;
     grid-template-columns: 3fr 31%;
-    grid-gap: 20px;
+    grid-gap: 10px;
     margin-top: -15px;
     margin-left: -10px;
 }
 
 .section-one-item1 {
     grid-area: 1 / 1 / 3 / 2;
-    border: 1px solid green;
     background-image: url(/image/section-one-item1-img.jpg);
 }
 
+.section-one-item-div {
+    color: hsl(0, 0%, 7%);
+    position: absolute;
+    margin-top: 20%;
+}
+
+#gradient-img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
 .section-one-item2 {
-    border: 1px solid green;
     background-image: url(/image/section-one-item2-img.jpg);
 }
 
 .section-one-item3 {
-    border: 1px solid green;
     background-image: url(/image/section-one-item3-img.jpg);
 }
 
@@ -242,12 +247,10 @@ A {
     flex-direction: column;
     width: 100%;
     margin-top: 40px;
-    border: 2px solid red;
 }
 
 .section-two-item {
     padding: 3%;
-    border: 2px solid blue;
 }
 
 .section-two-item h4 {
@@ -268,7 +271,6 @@ A {
 .section-two-title {
     margin-top: 40px;
     margin-bottom: 40px;
-    border: 2px solid red;
 }
 
 .section-two-grid {
@@ -278,7 +280,6 @@ A {
     grid-template-rows: 245px 245px;
     justify-content: space-between;
     margin-bottom: 20px;
-    border: 2px solid green;
 }
 
 .section-two-item1 {
@@ -345,7 +346,6 @@ A {
     width: 89%;
     align-items: center;
     margin-bottom: 20px;
-    border: 2px solid red;
 }
 
 .section-three-title-flex {
@@ -353,16 +353,13 @@ A {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
-    border: 2px solid green;
 }
 
 .section-three-flex {
     justify-content: center;
-    /* justify-content: space-between; */
     width: 89%;
     height: 300px;
     margin-bottom: 40px;
-    border: 2px solid blue;
 }
 /* sectionn three flex items  */
 
@@ -382,7 +379,6 @@ A {
     width: 25%;
     height: 97.7%;
     padding: 0.8%;
-    border: 2px solid green;
 }
 
 .section3-header1 {
@@ -459,7 +455,6 @@ A {
     width: 25%;
     height: 97.7%;
     padding: 0.8%;
-    border: 2px solid green;
 }
 
 .section-three-item3 {
@@ -467,7 +462,6 @@ A {
     width: 25%;
     height: 97.7%;
     padding: 0.8%;
-    border: 2px solid green;
 }
 
 .section-three-item4 {
@@ -475,95 +469,156 @@ A {
     width: 25%;
     height: 97.7%;
     padding: 0.8%;
-    border: 2px solid green;
 }
 
 
 /* main body section four */
 
+.color-white2 {
+    color: white;
+}
+
 .section-four {
     width: 100%;
     justify-content: center;
     align-items: center;
-    border: 1px solid springgreen;
 }
 
 .section-four-item {
     padding: 3%;
-    border: 2px solid blue;
+}
+
+.section-four-item-header {
+    position: absolute;
+    margin-top: 14%;
+    padding-left: 1%;
+}
+
+.section-four-item-header h5 {
+    font-size: 13px;
+    color: white;
+    margin-bottom: 2%;
+}
+
+.section-four-item-header .anchor-1 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 17.5px;
+    color: white;  
+}
+
+.section-four-item-header li {
+    font-size: 0.9rem;
+    margin-top: 2%;
+    list-style: none;
+}
+
+.section-four-item-header2-container {
+    justify-content: flex-start;
+    background-color: hsla(9, 100%, 57%, 0.08);
+    width: 100%;
+    height: 13.4%;
+}
+
+.section-four-item-links {
+    width: 100%;
+    height: 180px;
+}
+
+.item-links-div {
+    width: 100%;
+    border-bottom: 1px solid rgb(207, 199, 199);
+}
+
+.item-links {
+    color: hsl(9, 100%, 57%);
+    margin-left: 25px;
+    line-height: 19.5px;
+    padding: 6px 0 6px 0;
+}
+
+.item-links a {
+    color: rgb(105, 99, 99);
+}
+
+.section-four-item-header2 {
+    width: 100%;
+    height: 100%;
+}
+
+.section-four-item-header2 h5 {
+    font-size: 0.8rem;
+    color:hsl(9, 100%, 57%);
+    padding-left: 15px;
+    padding-top: 20px;
+    margin-bottom: 5px;
+}
+ 
+.section-four-item-header2 a {
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding-left: 15px;
+    color:hsl(9, 100%, 57%);
+}
+
+.img-div img{
+    width: 96px;
+    height: 96px;
+    margin-top: 1%;
+}
+
+.section-four-item-links {
+    width: 100%;
 }
 
 .section-four-grid {
     display: grid;
     width: 89%;
     grid-template-columns: repeat(3, 33.4%);
-    grid-template-rows: repeat(3, 500px);
+    grid-template-rows: repeat(3, 770px);
     justify-content: space-between;
-    margin-bottom: 40px;
-    border: 2px solid red;
+    margin-bottom: 20px;
+}
+
+.width-height {
+    width: 100%;
+    height:39%;
 }
 
 .section-four-item1 {
-    width: 100%;
-    height: 60%;
     background-image: url(/image/section-four-item1-img.jpg);
-    border: 2px solid green;
 }
 
 .section-four-item2 {
-    width: 100%;
-    height: 60%;
     background-image: url(/image/section-four-item2-img.jpg);
-    border: 2px solid green;
 }
 
 .section-four-item3 {
-    width: 100%;
-    height: 60%;
     background-image: url(/image/section-four-item3-img.jpg);
-    border: 2px solid green;
 }
 
 .section-four-item4 {
-    width: 100%;
-    height: 60%;
     background-image: url(/image/section-four-item4-img.png);
-    border: 2px solid green;
 }
 
 .section-four-item5 {
-    width: 100%;
-    height: 60%;
     background-image: url(/image/section-four-item5-img.png);
-    border: 2px solid green;
 }
 
 .section-four-item6 {
-    width: 100%;
-    height: 60%;
     background-image: url(/image/section-four-item6-img.jpg);
-    border: 2px solid green;
 }
 
 .section-four-item7 {
-    width: 100%;
-    height: 60%;
     background-image: url(/image/section-four-item7-img.jpg);
-    border: 2px solid green;
 }
 
 .section-four-item8 {
-    width: 100%;
-    height: 60%;
     background-image: url(/image/section-four-item8-img.png);
-    border: 2px solid green;
 }
 
 .section-four-item9 {
-    width: 100%;
-    height: 60%;
     background-image: url(/image/section-four-item9-img.jpg);
-    border: 2px solid green;
 }
 
 /* section five */
@@ -649,9 +704,6 @@ A {
 }
 
 /* footer section */
-.footer-area {
-  border: 2px solid blue;
-}
 
 .footer-links {
   height: 160px;
