@@ -15,7 +15,7 @@ This project consists of building a clone of the next web page, to understand th
 
 Built With : Html,CSS and github technologies used:flex-box and grid of CSS, Using StyleLinters.
 
-Live Demo Link:https://raw.githack.com/Fanger53/responsive-design/tree/features
+Live Demo Link:https://raw.githack.com/Fanger53/responsive-design/features/index.html
 
 
 Getting Started
@@ -30,9 +30,6 @@ Authors
 
 Github: https://github.com/ositaadimma
 
-Twitter:
-
-Linkedin:
 
 👤 Author2
 
