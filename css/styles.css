@@ -720,13 +720,14 @@ a {
 }
 
 .footer-list {
-  width: 85%;
+  width: 100%;
   padding-top: 40px;
   text-align: center;
 }
 
 .icon {
-  margin: 0.4rem;
+  width: 40px;
+  height: 40px;
   font-size: 16px;
   color: white;
   border-radius: 50%;
@@ -749,12 +750,12 @@ a {
 }
 
 .footer-legal {
-  height: 100px;
+  height: 140px;
   background-color: black;
 }
 
 .legal-text {
-  width: 46vw;
+  width: 65vw;
   text-align: center;
   padding-top: 2.5rem;
 }
