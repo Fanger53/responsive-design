@@ -1,12 +1,12 @@
 # responsive-design
-This project consists of building a heatmap of the Smashing magazine website, for to understand the UX design
+This project consists of building a clone of the next web page, to understand the use of media-queries and how works the responsive design in differents electronic dispositives 
 
 
 
 
 Built With : Html,CSS and github technologies used:flex-box and grid of CSS, Using StyleLinters.
 
-Live Demo Link:
+Live Demo Link:https://raw.githack.com/Fanger53/responsive-design/tree/features
 
 
 Getting Started
