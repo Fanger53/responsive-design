@@ -1,6 +1,15 @@
 # responsive-design
 This project consists of building a clone of the next web page, to understand the use of media-queries and how works the responsive design in differents electronic dispositives 
 
+## Desktop
+<img width="946" alt="desktop-img" src="https://user-images.githubusercontent.com/31552010/92154270-27db4380-edeb-11ea-895b-45722ea61c4e.png">
+
+## Tablet
+<img width="709" alt="tablet-size" src="https://user-images.githubusercontent.com/31552010/92154362-4f321080-edeb-11ea-80de-faf32ff857ef.png">
+## movile
+
+<img width="452" alt="mobile-img" src="https://user-images.githubusercontent.com/31552010/92154426-64a73a80-edeb-11ea-81b8-b3f0c94d3780.png">
+
 
 
 
