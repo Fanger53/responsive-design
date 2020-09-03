@@ -58,6 +58,10 @@ a {
   color: rgb(105, 99, 99);
 }
 
+.color-black {
+  color: black;
+}
+
 .no-repeat {
   background-repeat: no-repeat;
   background-size: cover;
@@ -521,6 +525,7 @@ a {
 .s-3-h-s-a {
   margin: 10px 0 0 10px;
   display: block;
+  color: black;
 }
 
 /* Section four  */
@@ -715,7 +720,7 @@ a {
 }
 
 .footer-list {
-  width: 80%;
+  width: 85%;
   padding-top: 40px;
   text-align: center;
 }

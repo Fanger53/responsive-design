@@ -1,6 +1,6 @@
 /* Tablet */
 
-@media (min-width: 790px) {
+@media (min-width: 768px) {
   /* nav-bar */
 
   .nav-grid {
@@ -94,17 +94,26 @@
     display: none;
   }
 
+  .list-b {
+    display: inline-block;
+    border-right: 1px solid hsl(9, 100%, 57%);
+  }
+
   /* Section four */
 
   .section-four-grid {
     grid-template-columns: 50% 50%;
     grid-template-rows: repeat(4, 730px);
   }
+
+  .legal-text {
+    width: 80vw;
+  }
 }
 
 /* Desktop */
 
-@media (min-width: 1040px) {
+@media (min-width: 1024px) {
   /* nav bar size desktop */
 
   .first-header {
@@ -189,6 +198,21 @@
 
   .invicible {
     display: block;
+  }
+
+  .right-title {
+    position: relative;
+    left: 60vw;
+    bottom: 10px;
+  }
+
+  .list-b {
+    display: inline-block;
+    border-right: 1px solid hsl(9, 100%, 57%);
+  }
+
+  .last-a {
+    border: none;
   }
 
   /* Section four */
