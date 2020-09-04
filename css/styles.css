@@ -73,7 +73,7 @@ a {
 }
 
 .container {
-  width: 98%;
+  width: 95%;
 }
 
 /* nav */
@@ -94,7 +94,7 @@ a {
 /* NAV-BAR */
 
 .logo {
-  width: 106px;
+  width: 6.4rem;
   height: 54px;
   align-items: center;
   justify-content: center;
@@ -108,7 +108,7 @@ a {
 }
 
 .header-nav {
-  width: 98%;
+  width: 100%;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -116,7 +116,7 @@ a {
 
 .nav-grid {
   display: grid;
-  grid-template-columns: 75% 48px 48px 48px;
+  grid-template-columns: 60% 48px 48px 48px;
   grid-template-rows: 54px;
   height: 54px;
   background-color: white;
@@ -383,26 +383,26 @@ a {
 }
 
 .section-two-grid {
-  width: 90%;
+  width: 95%;
   display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: repeat(8, 80px);
+  grid-template-columns: 93%;
+  grid-template-rows: repeat(8, 140px);
 }
 
 .img-size-1,
 .img-size-2 {
-  width: 75px;
-  height: 75px;
+  width: 70px;
+  height: 70px;
   float: left;
 }
 
 .story-title {
   width: 90%;
-  margin-top: 10px;
-  margin-left: 85px;
+  margin-left: 0.5rem;
+  padding-left: 15%;
   font-family: 'PT Sans Caption', sans-serif;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 100%;
   color: black;
 }
 
@@ -489,11 +489,11 @@ a {
 }
 
 .padding-span {
-  padding-left: 22%;
+  padding-left: 27%;
 }
 
 .title-span {
-  font-size: 24px;
+  font-size: 130%;
   font-weight: 700;
 }
 
@@ -616,7 +616,7 @@ a {
   display: grid;
   width: 95%;
   grid-template-columns: 100%;
-  grid-template-rows: repeat(9, 730px);
+  grid-template-rows: repeat(9, 750px);
   justify-content: space-between;
   margin-bottom: 10px;
 }
@@ -717,18 +717,19 @@ a {
 
 .footer-social {
   color: white;
+  display: inline-block;
 }
 
 .footer-list {
-  width: 100%;
+  width: 95%;
   padding-top: 40px;
   text-align: center;
 }
 
 .icon {
-  width: 40px;
-  height: 40px;
-  font-size: 16px;
+  width: 30px;
+  height: 30px;
+  font-size: 26px;
   color: white;
   border-radius: 50%;
   background: #555;
@@ -750,14 +751,14 @@ a {
 }
 
 .footer-legal {
-  height: 140px;
+  height: 180px;
   background-color: black;
 }
 
 .legal-text {
-  width: 65vw;
+  width: 60vw;
   text-align: center;
-  padding-top: 2.5rem;
+  padding: 5rem 0;
 }
 
 .footer-legal-logo {

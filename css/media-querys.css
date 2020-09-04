@@ -24,6 +24,10 @@
     display: none;
   }
 
+  .search {
+    margin-left: 55px;
+  }
+
   /* section one */
 
   .section-one {
@@ -76,6 +80,7 @@
 
   .story-title {
     margin-left: 0;
+    padding-left: 0;
   }
 
   /* section-three */
@@ -103,11 +108,15 @@
 
   .section-four-grid {
     grid-template-columns: 50% 50%;
-    grid-template-rows: repeat(4, 730px);
+    grid-template-rows: repeat(4, 780px);
   }
 
   .legal-text {
     width: 80vw;
+  }
+
+  .section-five {
+    margin-top: 160px;
   }
 }
 
@@ -140,6 +149,10 @@
 
   .search-menu {
     display: none;
+  }
+
+  .search {
+    margin-left: 0;
   }
 
   .logo {
@@ -201,9 +214,7 @@
   }
 
   .right-title {
-    position: relative;
-    left: 60vw;
-    bottom: 10px;
+    float: right;
   }
 
   .list-b {
@@ -220,5 +231,10 @@
   .section-four-grid {
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: repeat(3, 730px);
+    margin-bottom: 2px;
+  }
+
+  .section-five {
+    margin-top: 2px;
   }
 }
